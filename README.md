@@ -13,22 +13,26 @@ In this repository, an attempt was made to examine all aspects of the wav2vec2 m
 Several models were finetuned in this process, so this is the reason for the discrepancy between the code results. You insert your own route model.
 In order to make a fair comparison between the existing wav2vec2 models, we prepared a standard test set including various and appropriate data, which will soon be included with our paper.
 |Model|WER|Dataset|LM|
-|----|------|----|----|
+|-----|--|------|------|
 |[m3hrdadfi/wav2vec2-large-xlsr-persian-v3](https://huggingface.co/Kamtera/persian-tts-female-vits)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)|no
 |[m3hrdadfi/wav2vec2-large-xlsr-persian](https://huggingface.co/m3hrdadfi/wav2vec2-large-xlsr-persian)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)|no
 |[m3hrdadfi/wav2vec2-large-xlsr-persian-v2](https://huggingface.co/m3hrdadfi/wav2vec2-large-xlsr-persian-v2)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)|no
+|[m3hrdadfi/wav2vec2-large-xlsr-persian-shemo](https://huggingface.co/m3hrdadfi/wav2vec2-large-xlsr-persian-shemo)|12%|[shEMO](https://www.kaggle.com/datasets/mansourehk/shemo-persian-speech-emotion-detection-database)|no
 |[wav2vec2-xlsr-multilingual-53-fa](https://huggingface.co/masoudmzb/wav2vec2-xlsr-multilingual-53-fa)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)+ Personal Data|no
-|[tacotron2 female](https://huggingface.co/Kamtera/persian-tts-female-tacotron2)|[persian-tts-dataset-famale](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-famale)|
-|[Hifigan](https://huggingface.co/Kamtera/persian-tts-female-Hifigan)|[persian-tts-dataset-famale](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-famale)|
-|[Wavernn](https://huggingface.co/Kamtera/persian-female-Wavernn)|[persian-tts-dataset-famale](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-famale)|
-
+|[Sharif-Wav2vec2-v1](https://huggingface.co/Kamtera/persian-tts-female-tacotron2)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)|no
+|[Sharif-Wav2vec2-v2](https://huggingface.co/Kamtera/persian-tts-female-Hifigan)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)+ [AGP](https://github.com/asr-gooyesh-pardaz) Data|no
+|[Sharif-Wav2vec2-v1](https://huggingface.co/Kamtera/persian-tts-female-tacotron2)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)|yes
+|[Sharif-Wav2vec2-v2](https://huggingface.co/Kamtera/persian-tts-female-Hifigan)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)+ [AGP](https://github.com/asr-gooyesh-pardaz) Data|yes
 ## Fine-tuned Model
-You can find finetuned models at these addresses:
-https://huggingface.co/SaraSadeghi/Sharif-Wav2vec2
-https://huggingface.co/SLPL/Sharif-wav2vec2
+- :hugs: You can find finetuned models at these addresses:
+
+- https://huggingface.co/SaraSadeghi/Sharif-Wav2vec2
+- https://huggingface.co/SLPL/Sharif-wav2vec2
+
 ## Thanks to
-We thank Sadra Sabouri for her cooperation
-Also, I would like to thank Mehrdad Farahani for using part of normalized data and dictionary
+thanks to @sadrasabouri 
+
+Also, I would like to thank @m3hrdadfi for using part of normalized data and dictionary
 ## How to use
 The order of using the codes:
 1.Preprocessing
