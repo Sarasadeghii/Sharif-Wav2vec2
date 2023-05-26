@@ -17,7 +17,7 @@ for fine-tuning the Sharif-Wav2vec2-v1 model we've used: [Mozilla Common Voice](
 
 The main datasets used for fine-tuning the Sharif-Wav2vec2-v2 model consist of [BigFarsdat](https://catalogue.elra.info/en-us/repository/browse/ELRA-S0380/), [DeepMine](https://data.deepmine.ir/en/),[FarsSpon](https://asr-gooyesh.com/fa/shop/%d8%af%d8%a7%d8%af%da%af%d8%a7%d9%86-farsspon/) & [Mozilla Common Voice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)
 - Corpus : Most of our textual data was taken from [naab](https://github.com/Sharif-SLPL/t5-fa) corpus which is a Huge corpora of textual data in Farsi
-- Syestem Config:
+- System Config: To fine-tune this model, NVIDIA GeForce RTX 3060 - 12 GB is used
 
 ## How to use
 ***
