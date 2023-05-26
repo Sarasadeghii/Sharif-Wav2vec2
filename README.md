@@ -1,13 +1,13 @@
 # Sharif-Wav2vec2
 **This repo shows how to finetune the wav2vec2.0 model along with its prerequisites.**
 ----------------------------------------------------------------------------------------
-In this repository, an attempt was made to examine all aspects of the wav2vec2 model
+In this repository, an attempt was made to examine all aspects of the wav2vec2 model.
 ## Table of Contents
 1. [General Info](#general-info)
-2. [How to use](#how-to-use)
+2. [How to Use](#how-to-use)
 3. [Fine-tuned Model](#fine-tuned-model)
 4. [Comparison](#comparison)
-5. [Useful links](#useful-links)
+5. [Useful Links](#useful-links)
 6. [Thanks to](#thanks-to)
 ## General Info
 ***
@@ -15,11 +15,12 @@ In this repository, an attempt was made to examine all aspects of the wav2vec2 m
 - Datasets: 
 for fine-tuning the Sharif-Wav2vec2-v1 model we've used: [Mozilla Common Voice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)
 
-The main datasets used for fine-tuning the Sharif-Wav2vec2-v2 model consist of [BigFarsdat](https://catalogue.elra.info/en-us/repository/browse/ELRA-S0380/), [DeepMine](https://data.deepmine.ir/en/),[FarsSpon](https://asr-gooyesh.com/fa/shop/%d8%af%d8%a7%d8%af%da%af%d8%a7%d9%86-farsspon/) & [Mozilla Common Voice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)(AGP Dataset)
+  The main datasets used for fine-tuning the Sharif-Wav2vec2-v2 model consist of [BigFarsdat](https://catalogue.elra.info/en-us/repository/browse/ELRA-S0380/), [DeepMine](https://data.deepmine.ir/en/),
+  [FarsSpon](https://asrgooyesh.com/fa/shop/%d8%af%d8%a7%d8%af%da%af%d8%a7%d9%86-farsspon/) & [Mozilla Common Voice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE) (AGP Dataset)
 - Corpus : Most of our textual data was taken from [naab](https://github.com/Sharif-SLPL/t5-fa) corpus which is a Huge corpora of textual data in Farsi
 - System Config: To fine-tune this model, [NVIDIA GeForce RTX 3060-12 GB](https://www.nvidia.com/nl-nl/geforce/graphics-cards/30-series/rtx-3060-3060ti/) is used
 
-## How to use
+## How to Use
 ***
 Order of use:
 1. Preprocessing
@@ -29,14 +30,14 @@ Order of use:
 5. client
 ## Fine-tuned Model
 ***
-- :hugs: You can find finetuned models at these addresses:
+- :hugs: You can find fine-tuned models at these addresses:
 
 - https://huggingface.co/SaraSadeghi/Sharif-Wav2vec2
 - https://huggingface.co/SLPL/Sharif-wav2vec2
 
 ## Comparison
 ***
-Several models were finetuned in this process, so this is the reason for the discrepancy between the code results. You insert your own route model.
+Several models were fine-tuned in this process, so this is the reason for the discrepancy between the code results. You insert your own route model.
 In order to make a fair comparison between the existing wav2vec2 models, we prepared a standard test set including various and appropriate data, which will soon be included with our paper.
 |Model|WER|Dataset|LM|
 |-----|--|------|------|
@@ -50,7 +51,7 @@ In order to make a fair comparison between the existing wav2vec2 models, we prep
 |[Sharif-Wav2vec2-v1](https://huggingface.co/Kamtera/persian-tts-female-tacotron2)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)|yes
 |[Sharif-Wav2vec2-v2](https://huggingface.co/Kamtera/persian-tts-female-Hifigan)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)+ [AGP](https://github.com/asr-gooyesh-pardaz) Dataset|yes
 
-## Useful links
+## Useful Links
 ***
 - Base Model:https://huggingface.co/facebook/wav2vec2-large-xlsr-53
 - Base Paper: https://arxiv.org/abs/2006.13979
@@ -60,9 +61,9 @@ In order to make a fair comparison between the existing wav2vec2 models, we prep
 ## Thanks to
 ***
 
-Thanks to @sadrasabouri for his collaboration:handshake::handshake:
+Thanks to [Sadra Sabouri](https://github.com/sadrasabouri) for his collaboration:handshake::handshake:
 
-Also, I would like to thank @m3hrdadfi for using part of normalized data and dictionary :handshake:
+Also, I would like to thank [Mehrdad Farahani](https://github.com/m3hrdadfi) for using part of normalized data and dictionary :handshake:
 ***
 
 :star:**Give us a star if you found this repo useful.**
