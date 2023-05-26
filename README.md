@@ -15,7 +15,7 @@ In this repository, an attempt was made to examine all aspects of the wav2vec2 m
 - Datasets: 
 for fine-tuning the Sharif-Wav2vec2-v1 model we've used: [Mozilla Common Voice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)
 
-The main datasets used for fine-tuning the Sharif-Wav2vec2-v2 model consist of [BigFarsdat](https://catalogue.elra.info/en-us/repository/browse/ELRA-S0380/), [DeepMine](https://data.deepmine.ir/en/),[FarsSpon](https://asr-gooyesh.com/fa/shop/%d8%af%d8%a7%d8%af%da%af%d8%a7%d9%86-farsspon/) & [Mozilla Common Voice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)
+The main datasets used for fine-tuning the Sharif-Wav2vec2-v2 model consist of [BigFarsdat](https://catalogue.elra.info/en-us/repository/browse/ELRA-S0380/), [DeepMine](https://data.deepmine.ir/en/),[FarsSpon](https://asr-gooyesh.com/fa/shop/%d8%af%d8%a7%d8%af%da%af%d8%a7%d9%86-farsspon/) & [Mozilla Common Voice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)(AGP Dataset)
 - Corpus : Most of our textual data was taken from [naab](https://github.com/Sharif-SLPL/t5-fa) corpus which is a Huge corpora of textual data in Farsi
 - System Config: To fine-tune this model, [NVIDIA GeForce RTX 3060-12 GB](https://www.nvidia.com/nl-nl/geforce/graphics-cards/30-series/rtx-3060-3060ti/) is used
 
@@ -46,9 +46,9 @@ In order to make a fair comparison between the existing wav2vec2 models, we prep
 |[m3hrdadfi/wav2vec2-large-xlsr-persian-shemo](https://huggingface.co/m3hrdadfi/wav2vec2-large-xlsr-persian-shemo)|12%|[shEMO](https://www.kaggle.com/datasets/mansourehk/shemo-persian-speech-emotion-detection-database)|no
 |[wav2vec2-xlsr-multilingual-53-fa](https://huggingface.co/masoudmzb/wav2vec2-xlsr-multilingual-53-fa)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)+ Personal Data|no
 |[Sharif-Wav2vec2-v1](https://huggingface.co/Kamtera/persian-tts-female-tacotron2)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)|no
-|[Sharif-Wav2vec2-v2](https://huggingface.co/Kamtera/persian-tts-female-Hifigan)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)+ [AGP](https://github.com/asr-gooyesh-pardaz) Data|no
+|[Sharif-Wav2vec2-v2](https://huggingface.co/Kamtera/persian-tts-female-Hifigan)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)+ [AGP](https://github.com/asr-gooyesh-pardaz) Dataset|no
 |[Sharif-Wav2vec2-v1](https://huggingface.co/Kamtera/persian-tts-female-tacotron2)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)|yes
-|[Sharif-Wav2vec2-v2](https://huggingface.co/Kamtera/persian-tts-female-Hifigan)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)+ [AGP](https://github.com/asr-gooyesh-pardaz) Data|yes
+|[Sharif-Wav2vec2-v2](https://huggingface.co/Kamtera/persian-tts-female-Hifigan)|12%|[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)+ [AGP](https://github.com/asr-gooyesh-pardaz) Dataset|yes
 
 ## Useful links
 ***
