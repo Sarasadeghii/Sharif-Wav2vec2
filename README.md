@@ -56,13 +56,18 @@ In order to make a fair comparison between the existing wav2vec2 models, we prep
 - Base Paper: https://arxiv.org/abs/2006.13979
 - Language Model: https://github.com/kpu/kenlm https://kheafield.com/code/kenlm/
 - Other Wav2vec2 Models info: https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec#wav2vec-20
+- Our Starndard Farsi Testset : Loading ....	:hourglass_flowing_sand:
 ## Thanks to
 ***
 
 Thanks to @sadrasabouri for his collaboration:handshake::handshake:
 
 Also, I would like to thank @m3hrdadfi for using part of normalized data and dictionary :handshake:
+***
 
+:star:**Give us a star if you found this repo useful.**
 
+🙋‍♀️ **Open an issue if you have any comments about them.**
 
+:smiling_face_with_three_hearts: **Feel free to open a pull request addding your feature to each of them. We'll be more than happy to accept them.**
 
