@@ -63,7 +63,7 @@ In order to make a fair comparison between the existing wav2vec2 models, we prep
 
 Thanks to [Sadra Sabouri](https://github.com/sadrasabouri) for his collaboration:handshake::handshake:
 
-Also, I would like to thank [Mehrdad Farahani](https://github.com/m3hrdadfi) for using part of normalized data and dictionary :handshake:
+Also, I would like to thank [Mehrdad Farahani](https://github.com/m3hrdadfi) for his normalizer and dictionary :handshake:
 ***
 
 :star:**Give us a star if you found this repo useful.**
