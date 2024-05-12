@@ -41,7 +41,7 @@ Several models were fine-tuned in this process, so this is the reason for the di
 In order to make a fair comparison between the existing wav2vec2 models, we prepared a standard test set including various and appropriate data, which will soon be included with our paper.
 |Model|WER|Dataset|LM|
 |-----|--|------|------|
-|[m3hrdadfi/wav2vec2-large-xlsr-persian-v3](https://huggingface.co/Kamtera/persian-tts-female-vits)||[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)|no
+|[m3hrdadfi/wav2vec2-large-xlsr-persian-v3](https://huggingface.co/m3hrdadfi/wav2vec2-large-xlsr-persian-v3)||[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)|no
 |[m3hrdadfi/wav2vec2-large-xlsr-persian](https://huggingface.co/m3hrdadfi/wav2vec2-large-xlsr-persian)||[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)|no
 |[m3hrdadfi/wav2vec2-large-xlsr-persian-v2](https://huggingface.co/m3hrdadfi/wav2vec2-large-xlsr-persian-v2)||[Mozilla_CommonVoice](https://commonvoice.mozilla.org/en?gclid=CjwKCAjw67ajBhAVEiwA2g_jEN4oRBq-KiWJxb0gxbtXYKjm2IbKVvLyKnZasu8TAo-NiKeC1N-ODhoCGLMQAvD_BwE)|no
 |[m3hrdadfi/wav2vec2-large-xlsr-persian-shemo](https://huggingface.co/m3hrdadfi/wav2vec2-large-xlsr-persian-shemo)||[shEMO](https://www.kaggle.com/datasets/mansourehk/shemo-persian-speech-emotion-detection-database)|no
